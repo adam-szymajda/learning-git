@@ -4,4 +4,5 @@ shopping_list = {
 }
 
 for shop, item in shopping_list.items():
-    print("Idę do {} i kupuję tam {}".format(shop, item))
+    items = ', '.join(article for article in item)
+    print("Idę do {} i kupuję tam {}".format(shop.upper(), items.upper()))
