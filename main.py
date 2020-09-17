@@ -1,5 +1,5 @@
-min_value = 100
-max_value = 999
+min_value = 101
+max_value = 998
 
 
 palindromes = []
